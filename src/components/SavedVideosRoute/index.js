@@ -3,7 +3,6 @@ import Navbar from "../Navbar"
 import Sidebar from "../Sidebar"
 import TrendingVideoItem from "../TrendingVideoItem"
 import { useContext } from "react"
-import { HiFire } from "react-icons/hi";
 import ModeContext from "../../contexts/ModeContext"
 import SavedVideosContext from '../../contexts/SavedVideosContext'
 import { CiSaveDown2 } from "react-icons/ci";

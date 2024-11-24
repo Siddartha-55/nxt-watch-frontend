@@ -49,7 +49,6 @@ const VideoItemDetails = props => {
             if (response.ok) {
                 const data = await response.json()
                 const details = data[0]
-                console.log(details)
                 const formattedData = {
                     id: details.id,
                     videoUrl: details.video_url,

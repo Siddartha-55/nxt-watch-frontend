@@ -90,7 +90,6 @@ const LoginRoute = () => {
     }
     const onLoginSuccess = jwtToken => {
         Cookies.set('jwtToken', jwtToken, { expires: 10 })
-        console.log(history)
         history.replace('/')
         updateActiveOption('home')
     }

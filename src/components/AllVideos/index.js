@@ -21,7 +21,6 @@ const AllVideos = () => {
 
     const makeApiCall = async () => {
         const jwtToken = Cookies.get('jwtToken')
-        console.log(jwtToken)
         const url = `https://nxt-watch-backend.onrender.com/videos/all?search=${searchInput}`
         const options = {
             headers: {
@@ -33,7 +32,6 @@ const AllVideos = () => {
         const response = await fetch(url, options)
         if (response.ok === true) {
             const data = await response.json()
-            console.log(data)
             const formattedData = data.map(eachItem => ({
                 id: eachItem.id,
                 publishedAt: eachItem.published_at,

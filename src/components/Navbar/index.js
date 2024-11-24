@@ -21,7 +21,6 @@ const Navbar = () => {
     const { activeOption, updateActiveOption } = useContext(OptionContext)
     const [menuVisibility, updateMenuVisibility] = useState('false')
     const updateMenu = () => {
-        console.log(menuVisibility)
         updateMenuVisibility(prevState => (!prevState))
     }
     const onClickLogout = () => {
