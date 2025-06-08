@@ -8,8 +8,8 @@ const PremiumAd = () => {
     return (
     <PremiumAdMainContainer advisibility={adVisibility}>
         <PremiumAdSubContainer>
-            <LogoContainer src="https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png" />
-            <AdText>Buy Nxt Watch Premium prepaid plans with UPI</AdText>
+            <LogoContainer src="https://i.imghippo.com/files/Ckx1493z.png" />
+            <AdText>Buy WATCH IT Premium prepaid plans with UPI</AdText>
             <Button>GET IT NOW</Button>
         </PremiumAdSubContainer>
         <PremiumAdSubContainer>

@@ -9,17 +9,16 @@ export const TrendingContainer = styled.div`
 export const TrendingVideosContainer = styled.ul`
     display: flex;
     flex-direction: column;
-    padding: 50px 70px;
-    gap: 40px;
+    padding: 20px 0px;
     margin: 0px;
     background-color: ${props => (props.mode === 'dark' ? '#0f0f0f' : '#F7F7F7')};
     color: ${props => (props.mode === 'dark' ? 'white' : null)};
     @media (max-width: 576px){
-        padding: 20px 0;
+        padding: 0px;
         align-items: center;
     }
     @media (min-width: 576px) and (max-width : 1000px){
-        padding: 30px 20px;
+        padding: 0px;
     }
 `
 export const TrendingHeadingContainer = styled.div`

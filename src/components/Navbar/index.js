@@ -1,4 +1,4 @@
-import { LogoContainer, NavbarMainContainer, NavbarLaptopContainer, NavbarSubContainer, Button, IconContainer, NavbarMobileContainer, HiddenMenu, OptionContainer, OptionText, PopupContent, ConfirmationText, ConfirmButton, ButtonsContainer } from "./styledComponents"
+import { LogoContainer, NavbarMainContainer, NavbarLaptopContainer, NavbarSubContainer, Button, IconContainer, NavbarMobileContainer, HiddenMenu, OptionContainer, OptionText, PopupContent, ConfirmationText, ConfirmButton, ButtonsContainer, LogoContainer1 } from "./styledComponents"
 import { MdDarkMode } from "react-icons/md";
 import { IoReorderThree } from "react-icons/io5";
 import { MdLogout } from "react-icons/md";
@@ -50,7 +50,7 @@ const Navbar = () => {
         <>
             <NavbarMainContainer mode={activeMode}>
                 <NavbarSubContainer mode={activeMode}>
-                    <LogoContainer src={activeMode === 'dark' ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png' : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'} />
+                    <LogoContainer src='https://i.imghippo.com/files/Ckx1493z.png' />
                 </NavbarSubContainer>
                 <NavbarMobileContainer mode={activeMode}>
                     {activeMode === 'light' ? (
@@ -87,7 +87,7 @@ const Navbar = () => {
                     ) : (
                         <IconContainer mode={activeMode} onClick={onClickMode} id="light"><MdOutlineLightMode /></IconContainer>
                     )}
-                    <LogoContainer src="https://assets.ccbp.in/frontend/react-js/nxt-watch-profile-img.png" />
+                    <LogoContainer1 src="https://assets.ccbp.in/frontend/react-js/nxt-watch-profile-img.png" />
                     <Popup
                         modal
                         contentStyle={{ width: '400px', height: '180px', borderRadius: '10px', backgroundColor: (activeMode === 'dark' ? '#212121' : null), border: 'none' }}

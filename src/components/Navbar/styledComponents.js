@@ -15,6 +15,14 @@ export const NavbarSubContainer = styled.div`
     color: ${props => (props.mode === 'dark' ? 'white' : null)};
 `
 export const LogoContainer = styled.img`
+    height: 50px;
+    margin: 0 20px;
+    @media (max-width: 600px){
+        height: 25px;
+        margin: 0 10px;
+    }
+`
+export const LogoContainer1 = styled.img`
     height: 35px;
     margin: 0 20px;
     @media (max-width: 600px){

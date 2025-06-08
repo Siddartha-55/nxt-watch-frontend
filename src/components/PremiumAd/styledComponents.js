@@ -18,7 +18,7 @@ export const AdText = styled.p`
     background-color: white;
 `
 export const LogoContainer = styled.img`
-    height: 40px;
+    height: 50px;
     background-color: transparent;
     color: black;
 `
